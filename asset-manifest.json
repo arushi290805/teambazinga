@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/teambazinga/static/js/main.52a1822a.js",
+    "main.js": "/teambazinga/static/js/main.ec5ec787.js",
     "index.html": "/teambazinga/index.html",
-    "main.52a1822a.js.map": "/teambazinga/static/js/main.52a1822a.js.map"
+    "main.ec5ec787.js.map": "/teambazinga/static/js/main.ec5ec787.js.map"
   },
   "entrypoints": [
-    "static/js/main.52a1822a.js"
+    "static/js/main.ec5ec787.js"
   ]
 }
