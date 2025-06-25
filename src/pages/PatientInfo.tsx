@@ -106,10 +106,10 @@ const PatientInfo: React.FC = () => {
     setErrors({});
     setIsConfirming(true);
   };
-  const baseURL =
+  /*const baseURL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5000"
-    : process.env.REACT_APP_API_URL;
+    : process.env.REACT_APP_API_URL;*/
 
 
   const handleConfirm = async (e: React.FormEvent) => {
@@ -120,8 +120,9 @@ const PatientInfo: React.FC = () => {
       setIsConfirming(false);
       return;
     }
+    console.log("API URL:", process.env.REACT_APP_API_URL);
     try {
-      const res = await fetch(`${baseURL}/api/users`, {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/users`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
