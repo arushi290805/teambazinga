@@ -1,4 +1,4 @@
-# CLINI-CALL - Team Bazinga  Add commentMore actions
+# CLINI-CALL - By Team Bazinga 
 *Voice-Enabled Patient Intake App for Front Desk Efficiency*
 
 ## Overview  
